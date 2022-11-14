@@ -1,65 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  margin: 0;
-  padding: 0;
-}
-#navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-#navbar #logo {
-  margin: 5px;
-  font-size: 20px;
-}
-#navbar #logo a {
-  text-decoration: none;
-  color: #000;
-}
-#data {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-#content1 {
-  margin: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-#content1 a {
-  text-decoration: none;
-  color: #a0a0a0;
-  margin: 17px;
-  font-size: 14px;
-  font-weight: 400;
-}
-#content1 #web a {
-  color: black;
-}
-/* For mobile  */
-#ham {
-  display: none;
-}
-#mdata {
-  display: none;
-}
-#ham img {
-  height: 25px;
-  width: 25px;
-}
-/* EO. Navbar  */
-
 /* Main Container  */
 #mainContainer {
   display: flex;
@@ -70,7 +8,7 @@ body {
   padding: 10px 200px;
 }
 #mainContainer h1 {
-  color: #a52422;
+  color: #ed1b24;
 }
 
 /* container1  */
@@ -266,6 +204,10 @@ footer #f-container1 .box1 .box-logo a {
   font-size: 30px;
   margin-bottom: 20px;
 }
+footer #f-container1 .box1 .box-logo a img{
+  height: 100px;
+  width: 190px;
+}
 footer #f-container1 .box1 .element1 {
   display: flex;
   flex-direction: row;
@@ -327,7 +269,9 @@ footer #f-container1 .box4 a {
   text-decoration: none;
   color: #040403;
 }
-
+.box2, .box3, .box4{
+  margin: 20px 0 0 0;
+}
 footer #f-container2 {
   text-align: center;
   color: #040403;
