@@ -1,0 +1,145 @@
+nContainer {
+	  display: flex;
+	    margin: 0;
+	      padding: 0;
+	        gap: 0px;
+	}
+
+	/* Container1 */
+	#container1 {
+		  /* border: 4px solid red; */
+		  position: relative;
+		    width: auto;
+		      height: 100vh;
+		        overflow: hidden;
+			  background-blend-mode: overlay;
+			    margin: 0;
+			      display: flex;
+			        justify-content: center;
+				  align-items: center;
+			  }
+
+			  #background-video {
+				    position: absolute;
+				      top: 0;
+				        right: 0;
+					  width: 100%;
+					    height: 100%;
+					      object-fit: cover;
+					        pointer-events: none;
+						  z-index: -1;
+					  }
+
+					  /* EO Contaienr1 */
+
+					  /* Container2 */
+					  #container2 {
+						    display: flex;
+						      flex-direction: row;
+						        justify-content: center;
+							  align-items: center;
+							    padding: 10px 50px;
+						    }
+
+						    #container2 #c2-field1 {
+							      display: flex;
+							        flex-direction: column;
+								  width: 70%;
+								    padding: 10px 10rem;
+								      justify-content: center;
+							      }
+
+							      #container2 #c2-field1 img {
+								        height: 190px;
+									  width: 190px;
+									    border-radius: 50%;
+								    }
+
+								    #container2 #c2-field1 h2,
+								    p {
+									      margin: 7px 50px;
+								      }
+
+								      #container2 #c2-field2 {
+									        width: 30%;
+										  display: flex;
+										    justify-content: center;
+										      align-items: center;
+									      }
+
+									      #container2 #c2-field2 img {
+										        height: calc(32rem - 20px);
+											  width: calc(20rem - 20px);
+										  }
+
+										  /* EO Container2 */
+
+										  /* Container3 */
+										  #container3 {
+											    display: flex;
+											      flex-direction: column;
+											        justify-content: center;
+												  align-items: center;
+											  }
+
+											  #container3 h3 {
+												    font-size: 35px;
+												      margin-left: 19rem;
+											      }
+
+											      /* Animation content  */
+											      .a-container {
+												        display: flex;
+													  flex-direction: row;
+													    justify-content: center;
+													      align-items: center;
+													        gap: 40px;
+														  flex-wrap: wrap;
+														    width: auto;
+														      margin-top: 85px;
+													      }
+
+													      .a-container .box {
+														        height: calc(18rem - 20px);
+															  width: calc(14rem - 20px);
+															    background-color: #fff;
+															      border-radius: 5px;
+															        overflow: hidden;
+																  background: #F7F7F2;
+																    border: 4px solid red;
+															    }
+
+															    .a-container .box img {
+																      height: calc(11rem - 20px);
+																        width: calc(14rem - 20px);
+																}
+																.a-container .box .box-cotent{
+																	  display: flex;
+																	    flex-direction: column;
+																	      justify-content: center;
+																	        padding: 0px;
+																		  gap: 10px;
+																		    border: 4px solid blue;
+																		      
+																	    }
+																	    .a-container .box .box-cotent h2 {
+																		      font-size: 22px;
+																		        color: #1C1C21;
+																		}
+																		.a-container .box .box-cotent p {
+																			  font-size: 12px;
+																			    color: #1C1C21;
+																			      border: 4px solid black;
+																			        margin: 0;
+																			}
+																			.a-container .box .box-cotent a{
+																				  display: block;
+																				    font-size: 15px;
+																				      text-decoration: none;
+																				        color: #95C623;
+																					  border-bottom: 2px solid #95C623;
+																					    width: fit-content;
+																					      font-weight: 800;
+																				      }
+
+

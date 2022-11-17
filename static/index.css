@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&family=Epilogue:wght@700&family=Hahmlet:wght@300&display=swap');
 /* Container1 */
 #container1 {
   display: grid;
@@ -16,9 +16,14 @@
   color: #1a202c;
   font-weight: 600;
 }
+#content1 a{
+  color:black;
+}
 #c1-f1-datafield2 {
+  font-size: 20px;
   margin: 20px 0;
   color: rgb(133 133 133);
+  font-family: 'Mukta', sans-serif;
 }
 #c1-field2 {
   display: flex;
@@ -76,8 +81,8 @@
 #c2-f1-box2 {
   background: linear-gradient(
     19.81deg,
-    rgb(6, 76, 212) 25.06%,
-    rgba(6, 76, 212, 0) 106.9%
+    #80a4ed 25.06%,
+    #e25e5e 106.9%
   );
   transform: translateY(-40px);
   color: #fff;
@@ -121,6 +126,7 @@
 }
 #c2-field2 p {
   color: #8a8a8a;
+  font-family: 'Poppins', sans-serif;
 }
 /* EO Container2 */
 
@@ -201,12 +207,14 @@
 }
 #container4 #c4-field1 p {
   line-height: 27px;
-  letter-spacing: 0.1em;
-  font-size: 16px;
+  /* letter-spacing:em; */
+  font-size: 20px;
   max-width: 55%;
   color: #646464;
   text-align-last: center;
   margin: 10px;
+ font-family: 'Epilogue', sans-serif;
+
 }
 #container4 #c4-field2 {
   display: flex;
