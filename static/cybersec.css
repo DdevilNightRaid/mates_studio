@@ -386,109 +386,8 @@ section .text-container .text-box p {
   height: calc(17rem - 20px);
   width: calc(18rem - 20px);
 }
-/* Footer Section  */
-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 50px;
-}
-footer #f-container1 {
-  display: flex;
-  flex-direction: row;
-  /* margin: 0 30px; */
-  justify-content: space-between;
-  margin: 0 200px;
-  gap: 20px;
-}
-footer #f-container1 .box {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 400px;
-}
-/* footer #f-container1 .box1 .box-logo a {
-  text-decoration: none;
-  color: #064cd4;
-  font-weight: bold;
-  font-size: 30px;
-  margin-bottom: 20px;
-} */
-footer #f-container1 .box1 .box-logo a img{
-  height: 100px;
-  width: 190px;
-}
-footer #f-container1 .box1 .element1 {
-  display: flex;
-  flex-direction: row;
-  gap: 17px;
-  line-height: 36px;
-}
-footer #f-container1 .box1 img {
-  height: 24px;
-  width: 24px;
-}
-footer #f-container1 .box1 .element2 {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  line-height: 36px;
-}
-footer #f-container1 .box1 .element3 {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  line-height: 36px;
-}
-footer #f-container1 .box2 {
-  color: #0a033c;
-}
-footer #f-container1 .box2 h1 {
-  font-size: 24px;
-  color: #0a033c;
-}
-footer #f-container1 .box2 a {
-  font-size: 16px;
-  line-height: 36px;
-  text-decoration: none;
-  color: #040403;
-}
-footer #f-container1 .box3 {
-  color: #040403;
-}
-footer #f-container1 .box3 h1 {
-  font-size: 24px;
-  color: #0a033c;
-}
-footer #f-container1 .box3 a {
-  font-size: 16px;
-  line-height: 36px;
-  text-decoration: none;
-  color: #040403;
-}
-footer #f-container1 .box4 {
-  color: #040403;
-}
-footer #f-container1 .box4 h1 {
-  font-size: 24px;
-  color: #0a033c;
-}
-footer #f-container1 .box4 a {
-  font-size: 16px;
-  line-height: 36px;
-  text-decoration: none;
-  color: #040403;
-}
-.box2, .box3, .box4{
-  margin: 20px 0 0 0;
-}
-footer #f-container2 {
-  text-align: center;
-  color: #040403;
-  margin: 30px 0;
-}
 
-/* EO. Footer Section  */
+/* EO. Container6  */
 
 /* Responsive */
 @media screen and (max-width: 767px) {
@@ -528,10 +427,13 @@ footer #f-container2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 0px;
+    width: 100vw;
   }
   #container1 {
     height: auto;
     margin: 0;
+    width: 100vw;
   }
   #container1 #c1-field {
     position: relative;
@@ -557,7 +459,7 @@ footer #f-container2 {
   }
   #container1 #c1-content h1 {
     color: #95c623;
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   #container1 #c1-content p {
@@ -575,13 +477,15 @@ footer #f-container2 {
     gap: 20px;
     z-index: 2;
     position: relative;
+    padding: 10px;
+    width: auto;
   }
   #container2 #c2-field1 {
     width: 50%;
   }
   #container2 #c2-field1 img {
-    height: calc(10rem - 20px);
-    width: calc(20rem - 20px);
+    height: calc(9rem - 20px);
+    width: calc(18rem - 20px);
   }
   #container2 #c2-field2 {
     display: flex;
@@ -608,7 +512,7 @@ footer #f-container2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 50px;
     line-height: 22px;
   }
   #container3 #c3-field1 h1 {
@@ -628,7 +532,7 @@ footer #f-container2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 70px;
   }
   #c3-f2-layer1 {
     display: flex;
@@ -798,7 +702,7 @@ footer #f-container2 {
 
   .reveal {
     position: relative;
-    transform: translateX(150px);
+    transform: translateX(70px);
     opacity: 0;
     transition: 2s all ease;
   }
@@ -894,31 +798,4 @@ footer #f-container2 {
     box-shadow: 1px 3px 21px -1px #95c623;
   }
   /* EO. Container5 */
-  /* Footer Section  */
-  footer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-  }
-  footer #f-container1 {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    justify-content: space-between;
-    margin: 0 15px;
-    gap: 30px;
-  }
-  footer #f-container1 .box {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: auto;
-  }
-
-  footer #f-container2 {
-    text-align: center;
-    color: #040403;
-    margin: 30px 0;
-  }
-  /* EO. Footer Section  */
 }
